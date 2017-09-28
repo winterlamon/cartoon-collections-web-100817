@@ -18,7 +18,8 @@ end
 
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  if array.find(cheese_types)
+  if array.find_index(cheese_types)
+  
   else
     return nil
   end
