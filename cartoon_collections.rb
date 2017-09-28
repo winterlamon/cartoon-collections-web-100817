@@ -21,11 +21,6 @@ def find_the_cheese(array)
   found_cheese = array & cheese_types
   if array & cheese_types
     return found_cheese[0]
-    #puts "it found the cheese"
-#    array.find do |element|
-#      element == cheese_types[0..-1]
-#      return element
-#    end
   else
     return nil
   end
