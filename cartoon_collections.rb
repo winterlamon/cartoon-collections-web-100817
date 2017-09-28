@@ -5,7 +5,7 @@ def roll_call_dwarves(list_of_dwarves)
 end
 
 def summon_captain_planet(planeteer_calls)
-#  captain_call = 
+#  captain_call =
   planeteer_calls.each do |call|
     "#{call}".capitalize << !
   end
