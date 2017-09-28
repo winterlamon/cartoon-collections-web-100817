@@ -21,7 +21,7 @@ def find_the_cheese(array)
   if array.include?(cheese_types) == false
     return nil
   else
-    array.map { |element| == cheese_types }
+    array.map { |element| element == cheese_types }
     end
   end
 end
