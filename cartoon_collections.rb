@@ -24,7 +24,7 @@ def find_the_cheese(array)
 #    array.find do |element|
 #      element == cheese_types[0..-1]
 #      return element
-#    end
+    end
   else
     return nil
   end
