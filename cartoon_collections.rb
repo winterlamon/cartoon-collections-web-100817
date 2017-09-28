@@ -21,6 +21,8 @@ def find_the_cheese(array)
   if array.include?(cheese_types) == false
     return nil
   else
-    array.find(cheese_types) 
+    array.find do |element|
+      element == cheese_types[0..-1]
+    end
   end
 end
