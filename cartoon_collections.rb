@@ -19,7 +19,6 @@ end
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
   if array & cheese_types
-    return true
     #puts "it found the cheese"
 #    array.find do |element|
 #      element == cheese_types[0..-1]
